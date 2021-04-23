@@ -108,6 +108,18 @@ body {
 
 /* ========= left-side ========= */
 
+.language-change {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: #ff6b08;
+  text-decoration: none;
+}
+
+.language-change:hover {
+ text-decoration: underline;  
+}
+
 .left-side {
   width: 370px;
   background-color: #1e2939;
@@ -140,16 +152,24 @@ body {
   width: 370px;
 }
 
-.photo,
-.contacts,
-.skills,
+.photo {
+  margin-bottom: 60px;
+}
+
 .widget {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.contacts,
+.skills
+{
   margin-bottom: 60px;
 }
 
 .contacts,
-.skills,
-.widget {
+.skills
+{
   padding-left: 40px;
 }
 
